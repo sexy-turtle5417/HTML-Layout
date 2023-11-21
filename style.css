@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 50px auto auto 50px;
+    min-height: 100vh;
+    gap:2px;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+header, nav{
+    border: 1px solid rgb(55, 55, 55);
+}
+
+nav{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.explanation{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: 1px solid rgb(55, 55, 55);
+}
+
+.sample{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border: 1px solid rgb(55, 55, 55);
+    padding-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+aside{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border: 1px solid rgb(55, 55, 55);
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 1px solid rgb(55, 55, 55);
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+code{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.explanation{
+    padding-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.output{
+    padding-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+aside{
+    padding-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+footer{
+    padding-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;  
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+a{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+}
+
+button{
+    background-color: rgb(226, 226, 226);
+    border:none;
+    font-family: 'lato', sans-serif;
+    font-size: 1rem;
+}
+
+button:hover{
+    transition: 200ms;
+    background-color: gray;
+    color:white;
+}
+
+.navBtn{
+    border-right: 1px solid rgb(55, 55, 55);
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+html{
+    color:rgb(39, 39, 39);
+}
+
+header{
+    background-color: rgb(115, 255, 90);
+    font-weight: bold;
+}
+
+
+
