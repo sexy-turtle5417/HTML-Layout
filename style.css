@@ -6,6 +6,7 @@
     grid-template-rows: 100px 50px auto auto  auto;
     min-height: 100vh;
     gap:2px;
+    margin: 0px  150px;
 }
 
 header{
@@ -111,8 +112,8 @@ button{
 
 button:hover{
     transition: 200ms;
-    background-color: gray;
-    color:whitesmoke;
+    background-color: black;
+    color:white;
 }
 
 .navBtn{
@@ -128,9 +129,18 @@ html{
 }
 
 header{
-    background-color: dimgrey;
+    background-color: rgb(0, 0, 0);
+    color:white;
     font-weight: bold;
 }
 
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+h1,h2,h3{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 
