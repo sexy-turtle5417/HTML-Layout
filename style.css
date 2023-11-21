@@ -3,7 +3,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 50px auto auto 50px;
+    grid-template-rows: 100px 50px auto auto  auto;
     min-height: 100vh;
     gap:2px;
 }
@@ -29,6 +29,7 @@ nav{
     grid-row-start: 3;
     grid-row-end: 4;
     border: 1px solid rgb(55, 55, 55);
+    
 }
 
 .sample{
@@ -40,6 +41,7 @@ nav{
     padding-bottom: 50px;
     padding-left:10px;
     padding-right: 10px;
+    
 }
 
 aside{
@@ -48,53 +50,43 @@ aside{
     grid-row-start: 3;
     grid-row-end: 5;
     border: 1px solid rgb(55, 55, 55);
+    
 }
 
 footer{
     grid-column-start: 1;
     grid-column-end: 3;
     border: 1px solid rgb(55, 55, 55);
+    text-align: center;
+    
+}
+
+
+
+h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
 }
 
 p{
-    font-family: 'Lato', sans-serif;
-    text-align: justify;
-    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
 }
-
-h1,h2,h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-}
-
-code{
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-}
-
 .explanation{
-    padding-bottom: 50px;
-    padding-left:10px;
-    padding-right: 10px;
+    padding: 50px;
+}
+.sample{
+    padding: 50px;
 }
 
 .output{
-    padding-bottom: 50px;
-    padding-left:10px;
-    padding-right: 10px;
+    padding: 50px;
 }
 
 aside{
-    padding-bottom: 50px;
-    padding-left:10px;
-    padding-right: 10px;
+    padding: 50px;
 }
 
-footer{
-    padding-bottom: 50px;
-    padding-left:10px;
-    padding-right: 10px;  
-}
 
 nav{
     display: grid;
@@ -107,23 +99,24 @@ a{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     height: 100%;
+    text-decoration: none;
 }
 
 button{
     background-color: rgb(226, 226, 226);
     border:none;
-    font-family: 'lato', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
 }
 
 button:hover{
     transition: 200ms;
     background-color: gray;
-    color:white;
+    color:whitesmoke;
 }
 
 .navBtn{
-    border-right: 1px solid rgb(55, 55, 55);
+    border-right: 1px solid rgb(41, 40, 37);
 }
 
 body{
@@ -135,7 +128,7 @@ html{
 }
 
 header{
-    background-color: rgb(115, 255, 90);
+    background-color: dimgrey;
     font-weight: bold;
 }
 
